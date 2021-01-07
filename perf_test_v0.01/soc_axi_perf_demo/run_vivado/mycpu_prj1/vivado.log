@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Jan  7 18:13:28 2021
+# Process ID: 13368
+# Current directory: D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23728 D:\vivadoproject\n4ddr\perf_test_v0.01\soc_axi_perf_demo\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/vivado.log
+# Journal file: D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.xpr
+INFO: [Project 1-313] Project file moved from 'D:/dev/yingzhong2020/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'axi_ram_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'clk_pll_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'axi_clock_converter_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'axi_crossbar_1x2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.ip_user_files', nor could it be found using path 'D:/dev/yingzhong2020/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:27 . Memory (MB): peak = 1085.547 ; gain = 454.230
+update_compile_order -fileset sources_1
+add_files {D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/cache_LRU.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/eqcmp.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/hilo_reg.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/pc.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/cp0_reg.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/bridge_1x2.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/datapath.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/flopr.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/data_extend.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/exception.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/sl2.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/gs132_axi_verilog.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/signext.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/mycpu_top.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/defines.vh D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/defines2.vh D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/flopc.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/hazard.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/regfile.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/controller.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/floprc.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/maindec.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/flopenrc.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/div.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/mux3.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/mux2.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/branch.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/memsel.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/adder.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/flopenr.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/bridge_2x1.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/alu.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/aludec.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/cpu_axi_interface.v D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/mips.v}
+WARNING: [filemgmt 56-12] File 'D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/myCPU/gs132_axi_verilog.v' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {30.000} CONFIG.MMCM_CLKOUT0_DIVIDE_F {30} CONFIG.CLKOUT1_JITTER {176.981}] [get_ips clk_pll]
+generate_target all [get_files  D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/xilinx_ip/clk_pll/clk_pll.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_pll'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_pll'...
+export_ip_user_files -of_objects [get_files D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/xilinx_ip/clk_pll/clk_pll.xci] -no_script -sync -force -quiet
+launch_runs -jobs 6 clk_pll_synth_1
+[Thu Jan  7 18:18:59 2021] Launched clk_pll_synth_1...
+Run output will be captured here: D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1/runme.log
+export_simulation -of_objects [get_files D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/xilinx_ip/clk_pll/clk_pll.xci] -directory D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/../../Modeltech_pe_edu_10.4a/xilinx_lib} {questa=D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/vivadoproject/n4ddr/perf_test_v0.01/soft/perf_func/obj/allbench/axi_ram.coe' provided. It will be converted relative to IP Instance files '../../../../../../../soft/perf_func/obj/allbench/axi_ram.coe'
+set_property -dict [list CONFIG.Coe_File {D:/vivadoproject/n4ddr/perf_test_v0.01/soft/perf_func/obj/allbench/axi_ram.coe}] [get_ips axi_ram]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/vivadoproject/n4ddr/perf_test_v0.01/soft/perf_func/obj/allbench/axi_ram.coe' provided. It will be converted relative to IP Instance files '../../../../soft/perf_func/obj/allbench/axi_ram.coe'
+generate_target all [get_files  D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/xilinx_ip/axi_ram/axi_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'axi_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_ram'...
+export_ip_user_files -of_objects [get_files D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/xilinx_ip/axi_ram/axi_ram.xci] -no_script -sync -force -quiet
+launch_runs -jobs 6 axi_ram_synth_1
+[Thu Jan  7 18:24:24 2021] Launched axi_ram_synth_1...
+Run output will be captured here: D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.runs/axi_ram_synth_1/runme.log
+export_simulation -of_objects [get_files D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/rtl/xilinx_ip/axi_ram/axi_ram.xci] -directory D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.ip_user_files/sim_scripts -ip_user_files_dir D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.ip_user_files -ipstatic_source_dir D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/../../Modeltech_pe_edu_10.4a/xilinx_lib} {questa=D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=D:/vivadoproject/n4ddr/perf_test_v0.01/soc_axi_perf_demo/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  7 18:29:50 2021...
